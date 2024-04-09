@@ -1,0 +1,32 @@
+h1, h3 {
+    color:rgb(75, 75, 199);
+    background-color: lightblue;
+    font-family: "Noto Serif KR", serif;
+}
+
+.center{
+    text-align: center;
+    letter-spacing: 200%;
+}
+.description {
+    color:brown;
+    font-family: "Nanum Pen Script", cursive;
+}
+
+#degree {
+    color:rgba(230, 190, 190, 0.842)
+}
+h1{
+    color: blueviolet;
+}
+
+.a { font-size: 100%;}
+.b { font-size: 150%;}
+.c { font-size: 200%;}
+.patent { font-size: 30px;}
+
+
+.description {
+    color:brown;
+    font-family: "Nanum Pen Script", cursive;
+}
