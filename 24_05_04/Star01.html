@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // with와 변수 output를 이용하여 변수 한번에 출력-- g한꺼번 자료가 있을경우
+        //변수 output을 빈 공간으로 선언하고 with로 Stulist라는 변수안에 있는 속성을
+        // 한번에 출력하게 변수를 주고  alert(output)으로 출력하게 하였습니다. 
+        //개체의 속성을 출력할 때 with(객체){코드} 를 사용하면 객체의 속성을 
+        //사용하기 쉽기 때문에 사용하였습니다.
+       
+
+       
+        function test() { let num = Number (prompt('숫자입력')) 
+    }
+        let str = "";
+       for(let i = 0; i< num; i++){
+            for(let j = 1; j<=i; j++){
+            str+="*";
+            }
+             str += "\n";
+            }
+       alert(str);
+        test();
+    </script>
+</body>
+</html>
